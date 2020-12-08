@@ -1,0 +1,14 @@
+.portfoliodisplay a { text-decoration:none; }
+.portfolioitem { color:#555; width:300px; height:300px; border:1px solid #e0e0e0; border-radius:10px; overflow:hidden; background-color:#fff; }
+.portfolioitem:hover { background-color:#fffaf0; }
+.portfoliotag { border-radius:3px; margin-left:10px; padding:3px; font-family:open sans; font-weight:600; color:#fff; text-transform:uppercase; font-size:9px; display:inline; float:left; }
+.portfoliodesc { padding:10px; font-family:open sans; font-size:11px; text-align:justify; line-height:16px; }
+.itemtitle { font-family:open sans; font-weight:300; font-size:20px; text-align:left; padding:10px 10px 3px 10px; }
+.itemtitle b { font-weight:400; }
+.itempreview { width:300px; height:170px; background-size:cover; background-position:center; border-bottom:1px solid #e0e0e0;}
+
+
+
+#uxtag { background-color:#9c5ee2; }
+#apptag { background-color:#e25e6d; }
+#brandingtag { background-color:#ed6c39; }
