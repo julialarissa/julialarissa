@@ -1,5 +1,6 @@
 body { background-color:#fffaf0; }
 .initials a { font-family:dosis; font-weight:700; color:#fff; font-size:80px; text-decoration:none; }
-.mainlinks a { font-family:dosis; font-weight:700; color:#fff; font-size:40px; text-transform:uppercase; text-decoration:none;}
+.mainlinks a { font-family:dosis; font-weight:700; color:#fff; font-size:40px; text-transform:uppercase; text-decoration:none;  }
 .mainheader { width:100%; position:relative; }
 .headertext{ position:absolute; left:0px; right:0px; top:40px; }
+.mainlinks a:hover { text-decoration:underline; }
