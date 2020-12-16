@@ -17,7 +17,6 @@
 
 
 
-
 .portfolioitemblock { position:relative; width:300px;  border-radius:60px; padding:40px; margin-right:50px; display:inline; float:left; transition-duration:.2s; } 
 .portfolioitemblock:hover { transition-duration:.2s; transform:scale(1.05,1.05); -webkit-transform:scale(1.05,1.05); }
 .imagepreview { border:1px solid #fff; width:198px; height:198px;  background-size:cover; background-position:center; border-radius:100%; position:relative;right:50px; z-index:1; }
