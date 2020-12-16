@@ -1,6 +1,8 @@
-body { background-color:#fffaf0; }
-.initials a { font-family:dosis; font-weight:700; color:#fff; font-size:80px; text-decoration:none; }
-.mainlinks a { font-family:dosis; font-weight:700; color:#fff; font-size:40px; text-transform:uppercase; text-decoration:none;  }
-.mainheader { width:100%; position:relative; }
-.headertext{ position:absolute; left:0px; right:0px; top:40px; }
-.mainlinks a:hover { text-decoration:underline; }
+body { height:1000px; background: -webkit-linear-gradient(to right, #8a2387, #e94057, #f27121); 
+  background: linear-gradient(to right, #8a2387, #e94057, #f27121); }
+.initials a { font-family:open sans; font-weight:300; color:#fff; font-size:20px; text-align:center; text-decoration:none; border:1px solid #fff; border-radius:100%; width:33px; height:33px; display:block;}
+.initials a:hover { background-color:#fff; color:#000; }
+.mainlinks a { font-family:open sans; font-weight:600; color:#fff; font-size:12px; text-transform:uppercase; text-decoration:none; display:block; border:1px solid transparent; border-radius:6px;  padding:2px 6px 2px 6px; }
+.mainheader { width:100%; position:fixed; background-color:#000; z-index:99; height:60px; }
+.headertext{ position:absolute; left:0px; right:0px; top:10px; }
+.mainlinks a:hover { border:1px solid #fff; }
