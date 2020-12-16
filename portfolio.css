@@ -1,21 +1,30 @@
 .portfoliodisplay a { text-decoration:none; }
 .portfoliodisplay { display: flex; flex-wrap: wrap; justify-content: center; }
 
-.portfolioitem { z-index:1; position:relative; color:#555; width:300px; height:300px; border:1px solid #e0e0e0; border-radius:10px; overflow:hidden; background-color:#fff; transition-duration:.5s;  margin:40px; float:left; }
+
+.portfolioitem { z-index:1; position:relative; color:#555; width:300px; height:300px; border-radius:10px; overflow:hidden; background-color:#fff; transition-duration:.5s;  margin:40px; float:left; }
 .portfolioitem:hover { transition-duration:.5s; transform:scale(1.2,1.2); -webkit-transform:scale(1.05,1.05); }
 .portfoliotag { border-radius:3px; margin-left:10px; padding:3px; font-family:open sans; font-weight:600; color:#fff; text-transform:uppercase; font-size:9px; display:inline; float:left; }
 .portfoliodesc { padding:10px; font-family:open sans; font-size:11px; text-align:justify; line-height:16px; }
 .itemtitle { font-family:open sans; font-weight:300; font-size:20px; text-align:left; padding:10px 10px 3px 10px; }
 .itemtitle b { font-weight:400; }
-.itempreview { width:300px; height:170px; background-size:cover; background-position:center; border-bottom:1px solid #e0e0e0;}
-.sectiontitle { z-index:0; position:absolute; margin-top:-50px; left:0px; right:0px; font-family:open sans; font-weight:800; letter-spacing:-7px; color:#e1e1e1; font-size:105px; solid #888; }
+.itempreview { width:300px; height:170px; background-size:cover; background-position:center;}
+.sectiontitle { margin-bottom:-10px; font-family:open sans; font-weight:800; width:780px; text-align:left; color:transparent; font-size:65px; text-stroke:1px #fff; -webkit-text-stroke:1px #fff;  }
  .portfoliowrap { width:100%; position:relative; }
 
-#uxtag { background-color:#9c5ee2; }
-#apptag { background-color:#e25e6d; }
-#brandingtag { background-color:#ed6c39; }
-#merchtag { background-color:#c54c77; }
-#graphictag { background-color:#789252; }
-#postertag { background-color:#d55f5f; }
-#layouttag { background-color:#e26de9; }
-#greetingcardtag { background-color:#4acaa7; }
+
+
+
+
+
+
+.portfolioitemblock { position:relative; width:300px;  border-radius:60px; padding:40px; margin-right:50px; display:inline; float:left; transition-duration:.2s; } 
+.portfolioitemblock:hover { transition-duration:.2s; transform:scale(1.05,1.05); -webkit-transform:scale(1.05,1.05); }
+.imagepreview { border:1px solid #fff; width:198px; height:198px;  background-size:cover; background-position:center; border-radius:100%; position:relative;right:50px; z-index:1; }
+.imageborder { width:220px; height:220px; background-color:#fff; border-radius:100%; position:absolute; top:30px; left:30px; z-index:0; opacity:.7; }
+.imageborder2 { width:220px; height:220px; border:1px solid #fff; border-radius:100%; position:absolute; top:29px; left:29px; z-index:0; }
+.itemdesc { z-index:0; position:absolute; top:70px; left:190px; height:120px; width:240px; background-color:#fff; border-radius:20px; padding-bottom:20px }
+.itemtitle { text-align:left; font-family:open sans; font-weight:800; color:#000; text-align:left; position:relative; top:5px; left:55px; font-size:18px; }
+.itemtags { text-align:left;  margin-top:3px; margin-left:65px; }
+.itemtags b { background-color:#e1e1e1; border-radius:5px; padding:3px; font-size:8px;  color:#000; font-family:open sans; font-weight:300; text-transform:uppercase; }
+.itemtext { text-align:justify; font-family:open sans; font-weight:400; color:#000; font-size:10px; padding:7px 15px 0px 65px; line-height:13px; }
