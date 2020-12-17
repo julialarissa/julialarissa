@@ -33,3 +33,9 @@
 
 
 .portfoliosection { position:absolute; left:0px; margin-right:20%; margin-bottom:60px; font-family:open sans; font-size:60px; color:transparent; text-align:center; font-weight:800; line-height:0px; height:1px; border-left:200px solid #fff; text-stroke:1px #fff; -webkit-text-stroke:1px #fff; }
+.projectwords { font-family:open sans; font-weight:400; color:#000; text-align:justify; font-size:12px; }
+.projectwords b { color:#8a2387; }
+.projectwords a { color:#f27121; text-decoration:none; font-style:italic; font-weight:bolder; }
+.projectwords a:hover { text-decoration:underline; }
+.projectpoints { width:90%; border-left:1px solid #8a2387; padding-left:10px; text-align:left; }
+.projecttextsection { margin-top:10px;width:90%; border-radius:10px; background-color:#fff; padding:30px; }
