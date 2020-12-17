@@ -31,6 +31,7 @@
 
 
 
+.dwellsubsection { font-family:open sans; font-weight:300; font-style:italic; font-size:30px; color:#fff; text-align:left; margin-top:50px; }
 
 .portfoliosection { position:absolute; left:0px; margin-right:20%; margin-bottom:60px; font-family:open sans; font-size:60px; color:transparent; text-align:center; font-weight:800; line-height:0px; height:1px; border-left:200px solid #fff; text-stroke:1px #fff; -webkit-text-stroke:1px #fff; }
 .projectwords { font-family:open sans; font-weight:400; color:#000; text-align:justify; font-size:12px; }
