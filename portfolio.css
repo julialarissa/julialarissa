@@ -48,6 +48,9 @@ tr.spaceunder>td {
 }
 
 
+.pgdetails { border-radius:20px; opacity:0; height:266px; width:115px; padding:20px; font-size:12px; background-color:#000; text-align:left; color:#fff; position:absolute; top:10px; margin:auto; left:0px; right:0px; transition-duration:.3s; }
+.pgdetails:hover { opacity:.8; transition-duration:.3s; }
+
 
 
 .aboutblurb { margin-top:50px; width:600px; padding:40px; border-radius:10px; background-color:#fff; font-family:open sans; font-weight:400; color:#000; text-align:justify; font-size:14px; }
