@@ -34,10 +34,10 @@
 
 .portfoliosection { position:absolute; left:0px; margin-right:20%; margin-bottom:60px; font-family:open sans; font-size:60px; color:transparent; text-align:center; font-weight:800; line-height:0px; height:1px; border-left:200px solid #fff; text-stroke:2px #fff; -webkit-text-stroke:2px #fff; }
 .projectwords { font-family:open sans; font-weight:400; color:#000; text-align:justify; font-size:14px; }
-.projectwords b { color:#8a2387; }
-.projectwords a { color:#f27121; text-decoration:none; font-style:italic; font-weight:bolder; }
+.projectwords b { color:#35417f; }
+.projectwords a { color:#6d629c; text-decoration:none; font-style:italic; font-weight:bolder; }
 .projectwords a:hover { text-decoration:underline; }
-.projectpoints { width:90%; border-left:1px solid #8a2387; padding-left:10px; text-align:left; }
+.projectpoints { width:90%; border-left:1px solid #35417f; padding-left:10px; text-align:left; }
 .projecttextsection { margin-top:10px;width:90%; border-radius:10px; background-color:#fff; padding:30px; }
 #dwellpreview img { width:155px; }
 .dwellcell { width: 120px; height:350px; position:relative; font-size:13px; text-align:center; }
@@ -54,7 +54,7 @@ tr.spaceunder>td {
 
 
 .aboutblurb { margin-top:50px; width:600px; padding:40px; border-radius:10px; background-color:#fff; font-family:open sans; font-weight:400; color:#000; text-align:justify; font-size:14px; }
-.aboutblurb b { color:#8a2387; }
+.aboutblurb b { color:#35417f; }
 .lnr { height:35px; width:35px; fill:#fff; }
 .gettoknow { margin-left:20px; width:500px; font-family:open sans; font-size:15px; color:#fff; font-weight:400; margin-bottom:30px;  }
 .gettoknow b { text-transform:uppercase; }
