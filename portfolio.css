@@ -4,12 +4,12 @@
 
 .portfolioitem { z-index:1; position:relative; color:#555; width:300px; height:300px; border-radius:10px; overflow:hidden; background-color:#fff; transition-duration:.5s;  margin:40px; float:left; }
 .portfolioitem:hover { transition-duration:.5s; transform:scale(1.2,1.2); -webkit-transform:scale(1.05,1.05); }
-.portfoliotag { border-radius:3px; margin-left:10px; padding:3px; font-family:open sans; font-weight:600; color:#fff; text-transform:uppercase; font-size:9px; display:inline; float:left; }
-.portfoliodesc { padding:10px; font-family:open sans; font-size:11px; text-align:justify; line-height:16px; }
-.itemtitle { font-family:open sans; font-weight:300; font-size:20px; text-align:left; padding:10px 10px 3px 10px; }
+.portfoliotag { border-radius:3px; margin-left:10px; padding:3px; font-family:nunito; font-weight:600; color:#fff; text-transform:uppercase; font-size:9px; display:inline; float:left; }
+.portfoliodesc { padding:10px; font-family:nunito; font-size:11px; text-align:justify; line-height:16px; }
+.itemtitle { font-family:nunito; font-weight:300; font-size:20px; text-align:left; padding:10px 10px 3px 10px; }
 .itemtitle b { font-weight:400; }
 .itempreview { width:300px; height:170px; background-size:cover; background-position:center;}
-.sectiontitle { text-align:left; font-family:open sans; font-size:60px; color:transparent;  font-weight:800; line-height:0px; height:1px; border-left:160px solid #fff; text-stroke:2px #fff; -webkit-text-stroke:2px #fff; margin-bottom:40px; margin-top:40px; }
+.sectiontitle { text-align:left; font-family:nunito; font-size:60px; color:transparent;  font-weight:800; line-height:0px; height:1px; border-left:160px solid #fff; text-stroke:2px #fff; -webkit-text-stroke:2px #fff; margin-bottom:40px; margin-top:40px; }
  .portfoliowrap { width:100%; position:relative; }
 
 
@@ -22,22 +22,22 @@
 .imageborder { width:220px; height:220px; background-color:#fff; border-radius:100%; position:absolute; top:30px; left:30px; z-index:0; opacity:.7; }
 .imageborder2 { width:220px; height:220px; border:1px solid #fff; border-radius:100%; position:absolute; top:29px; left:29px; z-index:0; }
 .itemdesc { z-index:0; position:absolute; top:70px; left:190px; height:120px; width:240px; background-color:#fff; border-radius:20px; padding-bottom:20px }
-.itemtitle { text-align:left; font-family:open sans; font-weight:800; color:#000; text-align:left; position:relative; top:5px; left:55px; font-size:18px; }
+.itemtitle { text-align:left; font-family:nunito; font-weight:800; color:#000; text-align:left; position:relative; top:5px; left:55px; font-size:18px; }
 .itemtags { text-align:left;  margin-top:3px; margin-left:65px; }
-.itemtags b { background-color:#e1e1e1; border-radius:5px; padding:3px; font-size:8px;  color:#000; font-family:open sans; font-weight:300; text-transform:uppercase; }
-.itemtext { text-align:justify; font-family:open sans; font-weight:400; color:#000; font-size:10px; padding:7px 15px 0px 65px; line-height:13px; }
+.itemtags b { background-color:#e1e1e1; border-radius:5px; padding:3px; font-size:8px;  color:#000; font-family:nunito; font-weight:300; text-transform:uppercase; }
+.itemtext { text-align:justify; font-family:nunito; font-weight:400; color:#000; font-size:10px; padding:7px 15px 0px 65px; line-height:13px; }
 
 
 
 
-.dwellsubsection { font-family:open sans; font-weight:300; font-style:italic; font-size:30px; color:#fff; text-align:left; margin-top:50px; }
+.dwellsubsection { font-family:nunito; font-weight:300; font-style:italic; font-size:30px; color:#fff; text-align:left; margin-top:50px; }
 
-.portfoliosection { position:absolute; left:0px; margin-right:20%; margin-bottom:60px; font-family:open sans; font-size:60px; color:transparent; text-align:center; font-weight:800; line-height:0px; height:1px; border-left:200px solid #fff; text-stroke:2px #fff; -webkit-text-stroke:2px #fff; }
-.projectwords { font-family:open sans; font-weight:400; color:#000; text-align:justify; font-size:14px; }
-.projectwords b { color:#35417f; }
-.projectwords a { color:#6d629c; text-decoration:none; font-style:italic; font-weight:bolder; }
+.portfoliosection { position:absolute; left:0px; margin-right:20%; margin-bottom:60px; font-family:nunito; font-size:60px; color:transparent; text-align:center; font-weight:800; line-height:0px; height:1px; border-left:200px solid #fff; text-stroke:2px #fff; -webkit-text-stroke:2px #fff; }
+.projectwords { font-family:nunito; font-weight:400; color:#000; text-align:justify; font-size:14px; }
+.projectwords b { color:#212126; }
+.projectwords a { color:#907942; text-decoration:none; font-style:italic; font-weight:bolder; }
 .projectwords a:hover { text-decoration:underline; }
-.projectpoints { width:90%; border-left:1px solid #35417f; padding-left:10px; text-align:left; }
+.projectpoints { width:90%; border-left:1px solid #212126; padding-left:10px; text-align:left; }
 .projecttextsection { margin-top:10px;width:90%; border-radius:10px; background-color:#fff; padding:30px; }
 #dwellpreview img { width:155px; }
 .dwellcell { width: 120px; height:350px; position:relative; font-size:13px; text-align:center; }
@@ -53,10 +53,10 @@ tr.spaceunder>td {
 
 
 
-.aboutblurb { margin-top:50px; width:600px; padding:40px; border-radius:10px; background-color:#fff; font-family:open sans; font-weight:400; color:#000; text-align:justify; font-size:14px; }
-.aboutblurb b { color:#35417f; }
+.aboutblurb { margin-top:50px; width:600px; padding:40px; border-radius:10px; background-color:#fff; font-family:nunito; font-weight:400; color:#000; text-align:justify; font-size:14px; }
+.aboutblurb b { color:#212126; }
 .lnr { height:35px; width:35px; fill:#fff; }
-.gettoknow { margin-left:20px; width:500px; font-family:open sans; font-size:15px; color:#fff; font-weight:400; margin-bottom:30px;  }
+.gettoknow { margin-left:20px; width:500px; font-family:nunito; font-size:15px; color:#fff; font-weight:400; margin-bottom:30px;  }
 .gettoknow b { text-transform:uppercase; }
 .gettoknow i { font-weight:bolder; }
 
@@ -65,4 +65,4 @@ tr.spaceunder>td {
 .aboutbottom img { border-radius:5px; opacity:.8; }
 
 .aboutsocial i { color:#fff; margin-right:5px; font-size:40px; margin-top:50px; }
-.aboutsocial i:hover { text-stroke:1px #fff; -webkit-text-stroke:1px #fff; color:transparent; }
+.aboutsocial i:hover { color:#212126; }
