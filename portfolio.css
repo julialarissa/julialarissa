@@ -36,7 +36,12 @@
 .projectpoints { width:90%; border-left:1px solid #212126; padding-left:10px; text-align:left; }
 .projecttextsection { margin-top:10px;width:90%; border-radius:10px; background-color:#fff; padding:30px; }
 #dwellpreview img { width:155px; }
+
 .dwellcell { width: 120px; height:350px; position:relative; font-size:13px; text-align:center; }
+.dwellcell img { border:1px solid #000; border-radius:15px; }
+.dwellcell p { text-align:justify; }
+.dwellcell b { font-weight:400; }
+
 .dwelldetails { border-radius:20px; opacity:0; height:275px; width:115px; padding:20px; font-size:12px; background-color:#000; text-align:left; color:#fff; position:absolute; top:10px; margin:auto; left:0px; right:0px; transition-duration:.3s; }
 .dwelldetails:hover { opacity:.8; transition-duration:.3s; }
 tr.spaceunder>td {
