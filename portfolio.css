@@ -66,3 +66,9 @@ tr.spaceunder>td {
 
 .aboutsocial i { color:#fff; margin-right:5px; font-size:40px; margin-top:50px; }
 .aboutsocial i:hover { color:#212126; }
+
+.vlimg img { border:1px solid #000; }
+
+.projectblurb { width:90%; padding-top:30px;padding-left:20px; font-family:nunito; font-weight:400; color:#fff; text-align:justify; font-size:14px; }
+.projectblurb a { color: #212126; }
+.projectblurb a:hover { color:#fff; }
