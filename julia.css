@@ -1,4 +1,4 @@
-body { background: #212126;  }
+body { background-image:linear-gradient(to left,#2b5876,#4e4376);  }
 .mainlinks { font-family:open sans; font-weight:800; font-size:30px; text-transform:uppercase; color:#fff; margin-top:30px; transition-duration:.2s; }
 .mainlinks a { text-decoration:none; padding:5px 10px 5px 10px;  word-spacing:20px; margin-left:10px; margin-right:10px;  transition-duration:.2s;  background:transparent;  color:#fff; font-family:nunito; font-weight:800;}
 .mainlinks a:hover { color:#a99f91; transition-duration:.2s;  }
