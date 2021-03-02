@@ -54,10 +54,10 @@ tr.spaceunder>td {
 
 
 .aboutblurb { margin-top:50px; width:600px; padding:40px; border-radius:15px; background-color:#fff; font-family:nunito; font-weight:400; color:#000; text-align:justify; font-size:14px; }
-.aboutblurb b { color:#212126; }
+.aboutblurb b { color:#4e4376; }
 .lnr { height:35px; width:35px; fill:#000; margin-left:25px; }
 .gettoknow { margin-left:20px; width:500px; font-family:nunito; font-size:14px; color:#000; font-weight:400; margin-bottom:30px; text-align:justify;  }
-.gettoknow b { text-transform:uppercase; color:#212126; }
+.gettoknow b { text-transform:uppercase; color:#4e4376; }
 .gettoknow i { font-weight:bolder; }
 
 .aboutbottom { position:relative; border-radius:10px; width:250px; padding:20px; background-color:#fff; height:330px; }
