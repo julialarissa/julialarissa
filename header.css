@@ -1,4 +1,4 @@
-body { height:1000px; background:#a99f91; }
+body { height:1000px; background-image:linear-gradient(to left,#2b5876,#4e4376); }
 .initials a { font-family:open sans; font-weight:300; color:#fff; font-size:20px; text-align:center; text-decoration:none; border:2px solid #fff; border-radius:100%; width:33px; height:33px; display:block;}
 .initials a:hover { background-color:#fff; color:#000; }
 .mainlinks a { font-family:nunito; font-weight:600; color:#fff; font-size:12px; text-transform:uppercase; text-decoration:none; display:block; border:1px solid transparent; border-radius:6px;  padding:2px 6px 2px 6px; }
