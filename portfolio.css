@@ -14,7 +14,7 @@
 
 
 
-.portfolioitemblock { background-color:#212126; position:relative; width:600px; height:200px; border-radius:15px; margin-bottom:50px; padding:40px; margin-right:50px; transition-duration:1s; border:1px solid transparent;} 
+.portfolioitemblock { overflow:hidden; background-color:#212126; position:relative; width:600px; height:200px; border-radius:15px; margin-bottom:50px; padding:40px; margin-right:50px; transition-duration:1s; border:1px solid transparent;} 
 .portfolioitemblock:hover { transition-duration:1s; transform:scale(1.01,1.01); -webkit-transform:scale(1.01,1.01); border:1px solid #fff;}
 .imagepreview { border:1px solid #fff; width:198px; height:198px;  background-size:cover; background-position:center; border-radius:100%; position:absolute; right:50px; z-index:1; }
 .itemdesc { z-index:0;  width:240px;  border-radius:20px; padding:20px; position:absolute; left:50px;}
